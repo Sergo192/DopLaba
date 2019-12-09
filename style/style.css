@@ -1,0 +1,16 @@
+ video{
+      
+      width: 100%;
+  }
+img{
+    width: 100%;
+    height: 500px;
+}
+img {
+    opacity: 1;
+    transition: opacity 1s;
+    }
+    
+img[data-src] {
+    opacity: 0;
+}
